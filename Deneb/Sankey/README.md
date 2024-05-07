@@ -2,7 +2,7 @@
 
 ## Sections
 
-- [PowerQuery](#powerquery)
+- [PowerQuery](#power-queries)
 - [Vega](#vega)
 
 ## Vega
