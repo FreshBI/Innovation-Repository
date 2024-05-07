@@ -1,20 +1,22 @@
-# Deneb Sankey
+# Deneb Sankey Chart
 
 ## Sections
 
 - [PowerQuery](#powerquery)
 - [Vega](#vega)
 
-## Vega
+## Vega {#vega}
 
 For some reason, the collect transform isn't working to correct the order of items in the datasets.
 
 ### Visual Elements
-[![SankeyChart](https://raw.githubusercontent.com/FreshBI/Innovation-Repository/main/Deneb/Sankey/Images/Sankey.png)](https://app.powerbi.com/view?r=eyJrIjoiZjVmZmZhNjQtODNlMi00MmU1LWIyODktY2MxNTE5NDEyYzZjIiwidCI6ImNhMjJhYmIxLTY3OWYtNDQyZi1iYTRkLTg4NWZlNWIxZTQ2NCIsImMiOjZ9)
+[![SankeyChart](https://raw.githubusercontent.com/FreshBI/Innovation-Repository/main/Deneb/Sankey/Images/Sankey%20With%20Lines.png)](https://app.powerbi.com/view?r=eyJrIjoiZjVmZmZhNjQtODNlMi00MmU1LWIyODktY2MxNTE5NDEyYzZjIiwidCI6ImNhMjJhYmIxLTY3OWYtNDQyZi1iYTRkLTg4NWZlNWIxZTQ2NCIsImMiOjZ9)
 - Black Arrows are "Plotted Stacks"
 - Green Arrows are links from the "linkTable" 
 
 ### Datasets
+
+There are 6 datasets in use for the Sankey chart. These were originally defined by Davide.
 
 #### 1. Dataset
 - This is the datset that deneb attempts to create for Vega using the InputData Dataset
@@ -28,16 +30,16 @@ For some reason, the collect transform isn't working to correct the order of ite
 - This dataset defines the max value of the sankey, this helps with scale later on
 
 #### 4. plottedStacks
-- This dataset defines the max value of the sankey, this helps with scale later on
+- Defines the bounds for Stacks on the chart
 
 #### 5. finalTable
-- This dataset defines the max value of the sankey, this helps with scale later on
+- This is the final definition of the datset
 
 #### 6. linkTable
-- This dataset defines the max value of the sankey, this helps with scale later on
+- Defines the bounds for links on the chart
 
 
-## Power Queries
+## Power Queries {#powerquery}
 
 ### 1. Data Extraction
 
