@@ -3,9 +3,9 @@
 ## Sections
 
 - [PowerQuery](#powerquery)
-- [Vega](#vega-vega)
+- [Vega](#vega)
 
-## Vega {#vega}
+## Vega
 
 For some reason, the collect transform isn't working to correct the order of items in the datasets.
 
@@ -39,8 +39,7 @@ There are 6 datasets in use for the Sankey chart. These were originally defined 
 - Defines the bounds for links on the chart
 
 
-## Power Queries {#powerquery}
-
+## Power Queries
 ### 1. Data Extraction
 
 - **Description**: This Power Query extracts raw data from the source.
