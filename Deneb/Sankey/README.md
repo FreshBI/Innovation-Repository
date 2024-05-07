@@ -3,7 +3,7 @@
 ## Sections
 
 - [PowerQuery](#powerquery)
-- [Vega](#vega)
+- [Vega](#vega-vega)
 
 ## Vega {#vega}
 
